@@ -30,13 +30,7 @@ function Music() {
       left: '15%',
       top: '40%',
     },
-    {
-      title: "Last Night on Earth",
-      artist: "Green Day",
-      albumCover: greenday, 
-      left: '30%',
-      top: '75%',
-    },
+    
     {
       title: "American Boy",
       artist: "Estelle, Kanye West",
