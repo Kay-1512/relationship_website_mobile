@@ -11,7 +11,7 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ['Why is this nigga so cute?', 'Why does Michaela fall asleep so quickly?', `Mikaela's birthdate (coz Timothy forgets)`,]
+  const trends = ['Why is this idiot so cute?', 'Why does Mikaela fall asleep so quickly?', `Mikaela's birthdate (coz Timothy forgets)`,]
 
   const handleSearch = (e) => {
     e.preventDefault()
