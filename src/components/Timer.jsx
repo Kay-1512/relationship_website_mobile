@@ -36,7 +36,7 @@ function Timer() {
   <div className="text-center z-10">
     {/* Title */}
     <h1 className="text-lg sm:text-2xl font-bold mb-8 drop-shadow-lg">
-      We've known eachother for:
+      We've known each other for:
     </h1>
     
     {/* Countdown */}
