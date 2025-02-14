@@ -15,7 +15,7 @@ function Recap() {
   
       <div className="flex flex-wrap justify-center gap-10 mb-12">
         {[
-          { Icon: Message, label: 'Messages', path: '/recap/message' },
+          // { Icon: Message, label: 'Messages', path: '/recap/message' },
           { Icon: Image, label: 'Pictures', path: '/recap/pictures' },
           { Icon: Music, label: 'Music', path: '/recap/music' },
         ].map(({ Icon, label, path }) => (

@@ -72,7 +72,7 @@ function Music() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
     <div className="w-[90%] max-w-[400px]">
       <h1 className="text-2xl sm:text-2xl font-bold -mb-4 mt-4 drop-shadow-lg text-white text-center">
-        Songs that remind me of you
+        Songs that remind me of you, ask me why :)
       </h1>
 
       <div ref={containerRef}  className=" relative w-full h-[40rem] rounded-lg overflow-hidden mt-8 mb-12">

@@ -1,5 +1,6 @@
 
-import picture from "./picture.png";
+import picture01 from "./001.jpg";
+import picture02 from "./002.jpg";
 
 import heavenly from "./heavenly.jpg";
 import sparks from "./sparks.jpeg";
@@ -12,16 +13,17 @@ import souljaboy from "./souljaboy.jpeg";
 
 
 import fireworks from "./fireworks.gif";
-import christmas from "./christmas.gif";
+import heart from "./heart.gif";
 
 
 
 
 export {
 
-picture,
+picture01,
+picture02,
 heavenly,
-christmas,
+heart,
 fireworks,
 souljaboy,
 kanye,

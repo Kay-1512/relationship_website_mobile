@@ -6,7 +6,7 @@ import { ArrowRight } from './icons'
 
 function Timer() {
   // Anniversary date
-  const START_DATE = new Date('2024-10-18')
+  const START_DATE = new Date('2024-12-22')
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -36,7 +36,7 @@ function Timer() {
   <div className="text-center z-10">
     {/* Title */}
     <h1 className="text-lg sm:text-2xl font-bold mb-8 drop-shadow-lg">
-      We've been together for:
+      We've known eachother for:
     </h1>
     
     {/* Countdown */}
