@@ -9,13 +9,7 @@ function Music() {
   const navigate = useNavigate();
   // Customize and add your own songs
   const songs = [
-    {
-      title: "Heavenly",
-      artist: "Cigarettes After Sex",
-      albumCover: heavenly, 
-      left: "5%",
-      top: "5%",
-    },
+    
     {
       title: "The Boy Is Mine",
       artist: "Brandy, Monica",
@@ -52,13 +46,7 @@ function Music() {
       left: '35%',
       top: '50%',
     },
-    {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
-      albumCover: sunsetz, 
-      left: "10%",
-      top: "25%",
-    },
+   
   ];
   const containerRef = useRef(null);
 

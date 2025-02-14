@@ -15,7 +15,7 @@ function Question() {
 
   const handleSearch = (e) => {
     e.preventDefault()
-    if (searchQuery.toLowerCase() === 'how long have we been together?' || searchQuery.toLowerCase() === 'how long have we known eachother?') {
+    if (searchQuery.toLowerCase() === 'how long have we known eachother?' || searchQuery.toLowerCase() === 'how long have we known eachother?') {
           navigate("/timer");
 
     } else{
@@ -85,7 +85,7 @@ function Question() {
             </div>
           </form>
           <div className='mt-10  px-5 text-white/50'>
-            <p>Pro tip: try searching "How long have we been together?" ;)</p>
+            <p>Pro tip: try searching "How long have we known eachother?" ;)</p>
           </div>
         </div>
       )}
