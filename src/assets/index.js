@@ -10,6 +10,10 @@ import bruno from "./bruno.jpeg";
 import greenday from "./greenday.jpeg";
 import kanye from "./kanye.jpeg";
 import souljaboy from "./souljaboy.jpeg";
+import clairo from "./Juno.jpg";
+import laufey from "./Valentine.jpg"; 
+import marias from "./The-marias.jpg";
+
 
 
 import fireworks from "./fireworks.gif";
@@ -32,4 +36,7 @@ bruno,
 brandy,
 sunsetz,
 sparks,
+clairo,
+laufey,
+marias,
 };

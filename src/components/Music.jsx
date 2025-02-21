@@ -3,13 +3,12 @@ import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy } from "../assets";
+import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy,clairo,laufey,marias } from "../assets";
 
 function Music() {
   const navigate = useNavigate();
   // Customize and add your own songs
   const songs = [
-    
     {
       title: "The Boy Is Mine",
       artist: "Brandy, Monica",
@@ -24,7 +23,6 @@ function Music() {
       left: '15%',
       top: '40%',
     },
-    
     {
       title: "American Boy",
       artist: "Estelle, Kanye West",
@@ -40,13 +38,31 @@ function Music() {
       top: '90%',
     },
     {
+      title: "All I Really Want Is You",
+      artist: "The Marias", 
+      albumCover: marias, 
+      left: '35%',
+      top: '50%',
+    },
+    {
+      title: "Juna",
+      artist: "Clairo",
+      albumCover: clairo, 
+      left: '0%',
+      top: '30%',
+    },{
+      title: "Valentine",
+      artist: "Laufey",
+      albumCover: laufey, 
+      left: '5%',
+      top: '0%',
+    },{
       title: "Kiss Me Thru The Phone",
       artist: "Soulja Boy, Sammie",
       albumCover: souljaboy, 
       left: '35%',
-      top: '50%',
+      top: '75%',
     },
-   
   ];
   const containerRef = useRef(null);
 
@@ -54,7 +70,8 @@ function Music() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
     <div className="w-[90%] max-w-[400px]">
       <h1 className="text-2xl sm:text-2xl font-bold -mb-4 mt-4 drop-shadow-lg text-white text-center">
-        Songs that remind me of you, ask me why :)
+          Guess what got an update 🤭
+          Songs that remind me of you :)
       </h1>
 
       <div ref={containerRef}  className=" relative w-full h-[40rem] rounded-lg overflow-hidden mt-8 mb-12">

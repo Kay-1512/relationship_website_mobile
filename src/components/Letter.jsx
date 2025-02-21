@@ -68,7 +68,7 @@ function Letter() {
               <div className="letter" ref={letterRef}>
                 <div className="body">
                   <span className="close">x</span>
-                  <div className="message">Happy Valentines Day Sweets!!</div>
+                  <div className="message">Happy Valentines Day Sweets!!🤭❤️</div>
                 </div>
               </div>
             </div>
